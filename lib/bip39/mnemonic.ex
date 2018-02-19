@@ -26,7 +26,7 @@ defmodule Bip39.Mnemonic do
   defp map_onto_wordlist(entropy) do
     wordlist =
       Application.fetch_env!(
-        :bip39_haiku,
+        :bip39,
         :wordlist
       )
 

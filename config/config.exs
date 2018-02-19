@@ -2,7 +2,7 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
-config :bip39_haiku, wordlist: ~w[
+config :bip39, wordlist: ~w[
   abandon
   ability
   able
